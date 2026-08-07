@@ -6,5 +6,5 @@ NULL
   if (!requireNamespace("rjd3tramoseats", quietly = TRUE)) stop("Loading rjd3 libraries failed")
 
   result <- rJava::.jpackage(pkgname, lib.loc=libname)
-  if (!result) stop("Loading java packages failed")
+  if (!result) stop("Loading Java packages failed")
 }
